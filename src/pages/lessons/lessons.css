@@ -1,0 +1,24 @@
+.section__head {
+  font-weight: 800;
+}
+
+
+
+.lesson-section {
+  margin: auto 1rem;
+}
+
+
+.prog-card .button {
+  margin-top: 2.5rem;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  align-content: center;
+
+
+}
+
+.prog-card .button:hover {
+  background-color: hsl(180, 30%, 55%);
+}

@@ -1,0 +1,153 @@
+.main__header {
+  margin-top: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url('/src/images/C1.jpg');
+  background-repeat: no-repeat;
+  height: 89vmin;
+  background-size: cover;
+  background-color: rgb(249 250 251 1);
+  background-position: bottom center;
+  overflow: hidden;
+}
+
+.main__logo {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main__logo img {
+  width: 60%;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.main__logo p {
+  padding-top: 0.5rem;
+  color: yellow;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.nav {
+  z-index: 11 !important;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: row;
+  height: min-content;
+  justify-content: space-between;
+  align-content: end;
+  padding: 0 2rem;
+  margin-bottom: 23dvh;
+
+}
+
+.main__content .main__left {
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+  color: hsl(0, 0%, 90%);
+
+}
+
+
+
+.main__left .main__lead {
+  padding-top: 0.75rem;
+  font-size: 1.9rem;
+  margin: 0.5rem 0;
+  line-height: 2.5rem;
+  font-weight: 900 !important;
+  color: hsl(0, 0%, 75%);
+  text-transform: capitalize;
+
+}
+
+.main__content .main__right {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+  font-weight: 600;
+  text-align: center;
+
+}
+
+.main__right button {
+  width: max-content;
+  margin-right: 1.5rem;
+  padding: 0.75rem 0.75rem;
+  font-weight: 600;
+  text-align: center;
+  background-color: white;
+  border: solid rgb(234 88 12 / 1);
+  border-radius: 9999px;
+  color: rgb(234 88 12 / 1);
+  transition: all .5s;
+}
+
+
+.main__right button:hover {
+  color: white;
+  background-color: rgb(234 88 12 / 1);
+
+}
+
+.main__right button:last-child {
+  color: white;
+  background-color: rgb(234 88 12 / 1);
+  margin-right: 0;
+}
+
+.main__right button:last-child:hover {
+  color: rgb(234 88 12 / 1);
+  background-color: white;
+  border: solid rgb(234 88 12 / 1);
+}
+
+
+@media screen and (max-width:1024px) {
+
+  .main__header {
+    height: 90dvh !important;
+  }
+
+  .main__content {
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 70% 20% !important;
+    justify-content: space-between !important;
+    margin-bottom: 18dvh !important;
+    margin: 0.5rem 1rem;
+    padding: 0;
+    gap: 0;
+  }
+
+  .main__left {
+    width: 90% !important;
+  }
+
+  .main__right {
+    display: flex;
+    justify-content: end !important;
+    gap: 0.5rem;
+    flex-direction: column !important;
+  }
+
+  .main__right button:first-child {
+    margin-right: 0 !important;
+  }
+
+  .main__logo img {
+    width: 40%;
+  }
+
+  .section__head {
+    margin: 0.2rem 1rem;
+  }
+}

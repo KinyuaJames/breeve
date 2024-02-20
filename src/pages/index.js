@@ -1,0 +1,5 @@
+export {default as About} from './about/About.jsx'
+export {default as Contact} from './contact/Contact.jsx'
+export {default as Home} from './home/Home.jsx'
+export {default as Lessons} from './lessons/Lessons.jsx'
+export {default as Nfound} from './nfound/Nfound.jsx'

@@ -1,0 +1,8 @@
+export { ContactForm} from './ContactForm.jsx'
+export {default as ContactSection} from './ContactSection.jsx'
+export {default as Mainheader} from './Mainheader.jsx'
+export {default as Navbar} from './Navbar.jsx'
+export {default as Pricing} from './Pricing.jsx'
+export {default as Testimonials} from './Testimonials.jsx'
+export {default as Footer} from './Footer.jsx'
+export {default as SectionHead} from './SectionHead.jsx'
