@@ -16,11 +16,13 @@
 .main__logo {
   text-align: center;
   margin: 0 auto;
+  border: solid burlywood;
 }
 
 .main__logo img {
-  width: 60%;
+  width: 100%;
   align-self: center;
+  border: springgreen solid;
   margin: 0 auto;
 }
 
@@ -43,7 +45,8 @@
   justify-content: space-between;
   align-content: end;
   padding: 0 2rem;
-  margin-bottom: 23dvh;
+  margin-bottom: 12%;
+  border: seagreen solid;
 
 }
 
@@ -111,7 +114,7 @@
 }
 
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1050px) {
 
   .main__header {
     height: 90dvh !important;
@@ -122,8 +125,9 @@
     overflow: hidden;
     grid-template-columns: 70% 20% !important;
     justify-content: space-between !important;
-    margin-bottom: 18dvh !important;
+    margin-bottom: 12% !important;
     margin: 0.5rem 1rem;
+    font-size: 1.9rem;
     padding: 0;
     gap: 0;
   }
@@ -139,15 +143,48 @@
     flex-direction: column !important;
   }
 
+  .main__right button {
+    font-size: 1.6rem !important;
+    margin-bottom: 0.5rem;
+
+  }
+
   .main__right button:first-child {
     margin-right: 0 !important;
   }
 
+  .main__logo {
+    width: 20%;
+  }
+
   .main__logo img {
-    width: 40%;
+    width: 100%;
   }
 
   .section__head {
     margin: 0.2rem 1rem;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .main__logo {
+    width: 50%;
+  }
+
+  .main__content {
+    margin-bottom: 25% !important;
+    font-size: 1.9rem !important;
+
+  }
+}
+
+@media screen and (max-width:550px) {
+  .main__content {
+    font-size: 1.2rem !important;
+    margin-bottom: 35% !important;
+  }
+
+  .main__content button {
+    font-size: 1rem !important;
   }
 }
